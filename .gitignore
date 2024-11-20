@@ -1,1 +1,4 @@
 /target
+
+# default temp directory for the program
+/_frames_out
