@@ -1,0 +1,14 @@
+[package]
+name = "hilbert_animation"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+bpaf = { version = "0.9.15", features = ["batteries", "bpaf_derive"] }
+fast_hilbert = "2.0.0"
+image = { version = "0.25.5", default-features = false, features = ["png", "gif"] }
+kdam = { version = "0.6.0", features = ["rayon"] }
+palette = "0.7.6"
+rayon = "1.10.0"
+webp-animation = "0.9.0"
